@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - XP Hardware</title>
+    <link rel="stylesheet" href="/paginas/formularios.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <img src="/img/ChatGPT Image 16 de abr. de 2025, 21_19_32.png" alt="Logo XP Hardware" class="logo">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="destaques.html">Destaques</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h1>Formulário de Cadastro</h1>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferências</legend>
+                    <label>Escolha seu tipo de processador:</label><br>
+                    <input type="radio" id="intel" name="processador" value="Intel" required>
+                    <label for="intel">Intel</label><br>
+                    <input type="radio" id="amd" name="processador" value="AMD">
+                    <label for="amd">AMD</label><br>
+
+                    <label>Escolha sua placa de vídeo:</label><br>
+                    <input type="radio" id="nvidia" name="placa-grafica" value="NVIDIA" required>
+                    <label for="nvidia">NVIDIA</label><br>
+                    <input type="radio" id="amd-placa" name="placa-grafica" value="AMD">
+                    <label for="amd-placa">AMD</label><br>
+
+                    <label>Quais acessórios você deseja?</label><br>
+                    <input type="checkbox" id="mouse" name="acessorios" value="Mouse">
+                    <label for="mouse">Mouse</label><br>
+                    <input type="checkbox" id="teclado" name="acessorios" value="Teclado">
+                    <label for="teclado">Teclado</label><br>
+                    <input type="checkbox" id="headset" name="acessorios" value="Headset">
+                    <label for="headset">Headset</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentários</legend>
+                    <label for="comentarios">Deixe um comentário:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="5" placeholder="Comentários"></textarea><br>
+                </fieldset>
+
+                <button type="reset">Resetar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 XP Hardware. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
